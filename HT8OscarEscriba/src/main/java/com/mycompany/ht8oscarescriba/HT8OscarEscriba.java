@@ -19,7 +19,7 @@ public class HT8OscarEscriba {
 
         // Lectura del archivo pacientes.txt y agregando pacientes a la cola de prioridad
         try {
-            File file = new File("C:\\Users\\Oscar Escriba\\Documents\\NetBeansProjects\\HT8OscarEscriba\\src\\main\\java\\com\\mycompany\\ht8oscarescriba\\Pacientes.txt");
+            File file = new File("C:\\Users\\Oscar Escriba\\Desktop\\7mo semestre UVG\\Algoritmos y estructura de datos\\HT8---ED-Oscar-Escriba\\HT8OscarEscriba\\src\\main\\java\\com\\mycompany\\ht8oscarescriba\\Pacientes.txt");
             Scanner scanner = new Scanner(file);
 
             while (scanner.hasNextLine()) {
