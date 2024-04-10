@@ -10,25 +10,10 @@ package com.mycompany.ht8oscarescriba;
  */
 import java.util.PriorityQueue;
 
-public class Vheap<E extends Comparable<E>> extends PriorityQueue<E> implements PriorityQueues<E> {
+public class Vheap<E extends Comparable<E>> extends PriorityQueue<E> implements NewInterface<E> {
 
-    public Vheap() {
+  public Vheap(){
         super();
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return super.isEmpty();
-    }
-
-    @Override
-    public int size() {
-        return super.size();
-    }
-
-    @Override
-    public void clear() {
-        super.clear();
     }
 
     @Override
@@ -36,14 +21,32 @@ public class Vheap<E extends Comparable<E>> extends PriorityQueue<E> implements 
         return super.peek();
     }
 
-    @Override
-    public E remove() {
+    public E remove(){
         return super.remove();
     }
+    // pre: !isEmpty()
+    // post: returns and removes minimum value from queue
 
     @Override
-    public void add(E value) {
-          super.add(value);
+    public boolean add(E value){
+        return super.add(value);
     }
+    // pre: value is non-null comparable
+    // post: value is added to priority queue
+
+    public boolean isEmpty(){
+        return super.isEmpty();
+    }
+    // post: returns true iff no elements are in queue
+
+    public int size(){
+        return super.size();
+    }
+    // post: returns number of elements within queue
+
+    public void clear(){
+        super.clear();
+    }
+
 
 }
