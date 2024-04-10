@@ -1,0 +1,4 @@
+[Maria Ramirez, apendicitis, C]
+[Carmen Sarmientos, dolores de parto, A]
+[Juan Perez, fractura de pierna, B]
+[Lorenzo Toledo, chikungunya, E]
