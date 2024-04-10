@@ -10,7 +10,7 @@ package com.mycompany.ht8oscarescriba;
  */
 import java.util.Vector;
 
-public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E> {
+public class VectorHeap<E extends Comparable<E>> implements PriorityQueues<E> {
 
     protected Vector<E> data; // Los datos, mantienen el orden del montículo
 

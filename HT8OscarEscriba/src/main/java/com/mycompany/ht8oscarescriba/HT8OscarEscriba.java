@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 public class HT8OscarEscriba {
     public static void main(String[] args) {
-        VectorHeap<Paciente> emergencyQueue = new VectorHeap<>();
+        Vheap<Paciente> emergencyQueue = new Vheap<>();
 
         // Lectura del archivo pacientes.txt y agregando pacientes a la cola de prioridad
         try {

@@ -8,7 +8,7 @@ package com.mycompany.ht8oscarescriba;
  *
  * @author Oscar Escriba
  */
-public interface PriorityQueue<E extends Comparable<E>> {
+public interface PriorityQueues<E extends Comparable<E>> {
     void add(E value);
     boolean isEmpty();
     int size();
